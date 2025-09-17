@@ -8,6 +8,12 @@ import './assets/styles/main.scss'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+// Importar Vercel Analytics
+import { inject } from '@vercel/analytics'
+
+// Inicializar Vercel Analytics
+inject()
+
 // Criar a aplicação
 const app = createApp(App)
 
