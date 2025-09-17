@@ -1,0 +1,51 @@
+/* Variáveis CSS */
+:root {
+  /* Cores principais */
+  --primary-color: #ff6b35;
+  --primary-dark: #e55a2d;
+  --secondary-color: #4ecdc4;
+  --accent-color: #ffd93d;
+  --dark-color: #2c3e50;
+  --light-color: #f8f9fa;
+  --white: #ffffff;
+  --gray: #6c757d;
+  --gray-light: #e9ecef;
+  --gradient-primary: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  --gradient-secondary: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(255, 107, 53, 0.9) 0%, rgba(247, 147, 30, 0.9) 100%);
+  
+  /* Sombras */
+  --shadow-light: 0 2px 10px rgba(0,0,0,0.1);
+  --shadow-medium: 0 5px 25px rgba(0,0,0,0.15);
+  --shadow-heavy: 0 10px 40px rgba(0,0,0,0.2);
+  
+  /* Tipografia */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  
+  /* Espaçamentos */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 5rem;
+  
+  /* Bordas */
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 20px;
+  --border-radius-xl: 25px;
+  --border-radius-full: 50px;
+  
+  /* Transições */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
